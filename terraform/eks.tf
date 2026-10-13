@@ -40,7 +40,7 @@ module "eks" {
             use_custom_launch_template = false  # Important to apply disk size!
 
             tags = {
-                Name = "tws-demo-ng"
+                Name = "demo-ng"
                 Environment = "dev"
                 ExtraTag = "e-commerce-app"
             }

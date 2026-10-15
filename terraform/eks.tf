@@ -34,7 +34,7 @@ module "eks" {
       max_capacity     = 3
       min_capacity     = 1
 
-      instance_type              = ["t2.large"]
+      instance_type              = ["t3.large"]
       capacity_type              = "SPOT"
       disk_size                  = 35
       use_custom_launch_template = false # Important to apply disk size!

@@ -97,7 +97,7 @@ sudo ./aws/install
 1. **Clone the Repository:**
 First, clone this repo to your local machine:<br/>
 ```bash
-git clone https://github.com/LondheShubham153/tws-e-commerce-app.git
+git clone https://github.com/imVikash-ai/e-commerce-app.git
 cd terraform
 ```
 2. **Generate SSH Key Pair:**
@@ -144,7 +144,7 @@ aws configure
 ```
 
 ```bash
-aws eks --region eu-west-1 update-kubeconfig --name tws-eks-cluster
+aws eks --region eu-west-1 update-kubeconfig --name eks-cluster
 ```
 9. **Check your cluster:**
 ```bash
